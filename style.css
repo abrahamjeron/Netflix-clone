@@ -1,0 +1,408 @@
+*{
+    font-family: 'Goldman', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url(./assets/Title-Image.png) ;
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow-x:hidden;
+}
+#logo{
+    position: relative;
+    height: 30px ;
+    margin-left: 65px;
+    margin-top: 25px;
+
+}
+.navbar{
+    position: relative;
+    left: 200px;
+    display: flex;
+    bottom: 30px;
+}
+#mylist{
+    position: relative;
+    left: 70px;
+    text-decoration: none;
+}
+#new{
+    position: relative;
+    left: 60px;
+    text-decoration: none;
+}
+#movies{
+    position: relative;
+    left: 50px;
+    text-decoration: none;
+}
+#shows{
+    position: relative;
+    left: 40px;
+    text-decoration: none;
+}
+#start{
+    position: relative;
+    left: 30px;
+    text-decoration: none;
+}
+#mylist,#new,#movies,#shows,#start{
+    color: rgba(197, 190, 190, 0.857);
+}
+#mylist:hover{
+    color: white;
+}
+#new:hover{
+    color: white;
+}
+#movies:hover{
+    color: white;
+}
+#shows:hover{
+    color: white;
+}
+#start:hover{
+    color: white;
+}
+#symbol{
+    position: relative;
+    height: 45px;
+}
+.texts{
+    display: flex;
+    position: relative;
+    top: 410px;
+    left: 80px;
+}
+
+.texts h3{
+    color: white;
+    position: relative;
+    left: 25px;
+}
+.texts h1{
+    position: relative;
+    bottom: 58px;
+    font-size: 9rem;
+    right: 90px;
+    color: white;
+}
+#playtxt{
+    position: relative;
+    top: 190px;
+    right: 450px;
+    background-color: white;
+    height: 20px;
+    width: 65px;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius:5px;
+    text-decoration: none;
+    color: black;
+}
+
+#playbtn{
+    position: relative;
+    top: 3.5px;
+    right: 5px;
+    height: 15px;
+}
+#infotxt{
+    position: relative;
+    top: 190px;
+    right: 430px;
+    background-color: rgba(255, 255, 255, 0.418);
+    height: 20px;
+    width: 85px;
+    padding-left: 15px;
+    padding-right:15px ;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius:5px;
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+}
+
+#infobtn{
+    position: relative;
+    top: 3.5px;
+    right: 5px;
+    height: 15px;
+}
+.navbar2{
+    position: relative;
+    left: 85%;
+    bottom: 56px;
+}
+#down{
+    position: relative;
+    left: 90px;
+}
+#bell{
+    position: relative;
+    left:75px ;
+}
+#gift{
+    position: relative;
+    left: 65px;
+}
+#search{
+    position: relative;
+    left: 55px;
+}
+.component{
+    position: relative;
+    top: 300px;
+}
+.componentimg{
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
+}
+#cmp2{
+    position: relative;
+    right: 110px;
+
+}
+#cmp3{
+    position: relative;
+    right: 220px;
+
+}
+#cmp4{
+    position: relative;
+    right: 330px;
+
+}
+#cmp5{
+    position: relative;
+    right: 440px;
+
+}
+#cmp6{
+    position: relative;
+    right: 550px;
+
+}
+h6{
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    top: 40px;
+    left: 75px;
+}
+#rigtharr{
+    position: relative;
+    left: 155px;
+    bottom: 25px;
+    min-height: 50px;
+}
+#add{
+    position: relative;
+    left: 97%;
+    bottom: 20px;
+}
+.top10{
+    position: absolute;
+    top: 1100px;
+    overflow-x: scroll;
+}
+#ri1,#ri2,#ri3,#ri4,#ri5,#ri6{
+    position: relative;
+    height: 200px;
+}
+#ri6{
+    left: 1610px;
+    bottom: 200px;
+}
+#cmp22{
+    position: relative;
+    left:50px ;
+
+}
+#cmp33{
+    position: relative;
+    left: 90px;
+
+}
+#cmp44{
+    position: relative;
+    left: 150px;
+
+}
+#cmp55{
+    position: relative;
+    left: 200px;
+}
+#cmp66{
+    position: relative;
+    left: 250px;
+}
+.component3{
+    position: absolute;
+    top: 1350px;
+    overflow-x: scroll;
+}
+#cmp111,#cmp222,#cmp333,#cmp444,#cmp555{
+    height: 200px;
+}
+.top10 h2{
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    left: 75px;
+}
+#cmp222{
+    position: relative;
+    right: 110px;
+
+}
+#cmp333{
+    position: relative;
+    right: 220px;
+
+}
+#cmp444{
+    position: relative;
+    right: 330px;
+
+}
+#cmp555{
+    position: relative;
+    right: 440px;
+
+}
+#cmp666{
+    position: relative;
+    right: 550px;
+
+}
+.component3 h6{
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    left: 75px;
+}
+.component4{
+    position: absolute;
+    top: 1600px;
+    overflow-x: scroll;
+}
+#cmpi111,#cmpi222,#cmpi333,#cmpi444,#cmpi555{
+    position: relative;
+    height: 145px;
+    border-radius: 5px;
+}
+#cmp2222{
+    position: relative;
+    left: 25px;
+
+}
+#cmp3333{
+    position: relative;
+    right: 20px;
+
+}
+#cmp4444{
+    position: relative;
+    right: 65px;
+
+}
+#cmp5555{
+    position: relative;
+    right: 110px;
+
+}
+#cmp6666{
+    position: relative;
+    right: 160px;
+
+}
+#cmp1111{
+    position: relative;
+    left: 70px;
+}
+
+.social-media{
+    position: absolute;
+    top: 1950px;
+    left: 300px;
+    border-radius: 5px;
+    
+}
+#facebook,#insta,#twitter,#youtube{
+    background-color: rgba(255, 255, 255, 0.66);
+    border-radius: 15%;
+    height: 20px;
+}
+#youtube{
+    position: relative;
+    left: 100px;
+}
+
+#twitter{
+    position: relative;
+    left: 80px;
+}
+#insta{
+    position: relative;
+    left: 60px;
+}
+#facebook{
+    position: relative;
+    left: 40px;
+}
+.textcol1{
+    position: absolute;
+    top: 205%;
+    left: 20%;
+
+}
+p{
+    color: rgba(255, 255, 255, 0.438);
+}
+.textcol2{
+    position: absolute;
+    top: 205%;
+    left: 40%;
+
+}
+.textcol3{
+    position: absolute;
+    top: 205%;
+    left: 60%;
+
+}
+.textcol4{
+    position: absolute;
+    top: 205%;
+    left: 80%;
+
+}
+#right1{
+    position: relative;
+    height: 20px;
+    left: 13px;
+    bottom: 5px;
+}
+#right2{
+    position: relative;
+    height: 20px;
+    bottom: 199px;
+    left: 130px;
+}
+#right3{
+    position: relative;
+    height: 20px;
+    left: 50px;
+    bottom: 5px;
+}
+#right4{
+    position: relative;
+    height: 20px;
+    left: 40px;
+    bottom: 5px;
+}
